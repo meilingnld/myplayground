@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="https://production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico">
+<link rel="mask-icon" type="" href="https://production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111">
+<title>CodePen - Column Reordering in Bootstrap</title>
+<link rel="stylesheet prefetch" href="CodePen%20-%20Column%20Reordering%20in%20Bootstrap_files/bootstrap.css">
+<style>
+body {
+	padding-top: 50px;
+}
+.row {
+	margin-bottom: 20px;
+}
+</style>
+</head>
+
+<body translate="no">
+<div class="container text-center">
+  <!-- <p>2 is pushed above 1 and 3 on small screens</p> -->
+  <div class="row">
+    <div class="well well-lg clearfix">
+      <div class="col-xs-12 col-md-6 col-md-push-6">
+        <div class="alert alert-warning"> 2 </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-md-pull-6">
+        <div class="alert alert-info"> 1 </div>
+      </div>
+      <!--div class="col-xs-6 col-md-4">
+        <div class="alert alert-danger"> 3 </div>
+      </div-->
+    </div>
+  </div>
+  <!-- <p>2 is pushed below 1 and 3 on small screens</p> -->
+  <!--div class="row">
+    <div class="well well-lg clearfix">
+      <div class="col-xs-6 col-md-4">
+        <div class="alert alert-info"> 1 </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-md-push-4">
+        <div class="alert alert-danger"> 3 </div>
+      </div>
+      <div class="col-xs-12 col-md-4 col-md-pull-4">
+        <div class="alert alert-warning"> 2 </div>
+      </div>
+    </div>
+  </div-->
+  <!-- <p>1 moves to the right as a sidebar on large screens</p> -->
+  <!--div class="row">
+    <div class="well well-lg clearfix">
+      <div class="col-sm-4 col-md-3 col-md-push-9">
+        <div class="alert alert-danger"> 1 </div>
+      </div>
+      <div class="col-sm-8 col-md-9 col-md-pull-3">
+        <div class="alert alert-info"> 2 </div>
+      </div>
+    </div>
+  </div-->
+  <!--div class="well well-lg"> A <a href="https://scotch.io/bar-talk/reorder-css-columns-using-bootstrap" target="_blank">tutorial</a> by <a href="https://scotch.io/" target="_blank">scotch.io</a> </div-->
+</div>
+<script src="CodePen%20-%20Column%20Reordering%20in%20Bootstrap_files/jquery.js"></script>
+</body>
+</html>
